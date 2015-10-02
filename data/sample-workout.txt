@@ -1,0 +1,8 @@
+Monday
+	legs
+Tuesday
+	chest
+Thursday
+	back
+Friday
+	arms
