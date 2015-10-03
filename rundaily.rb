@@ -2,8 +2,10 @@
 
 #function to take a filename and day of the week and print relevant tasks for that day
 def parse(filename, today)
+	#get the name of the project from the name of the file
   $projectname = /data\/(.*)\.txt/.match(filename)[1]
   $projectname ||= $filename
+  
   including = false
   IO.foreach(filename) do |line|
     line.chomp!
