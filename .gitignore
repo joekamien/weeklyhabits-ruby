@@ -1,3 +1,7 @@
+*.txt
+
+
+## Standard Ruby
 *.gem
 *.rbc
 /.config
