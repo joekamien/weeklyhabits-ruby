@@ -15,7 +15,7 @@ It usually makes sense to keep habits organized by project. For example a file l
 When viewing habits, however, it usually makes more sense to view them by day. For example, on Monday it would be nice to see all the habits (across all projects) which are scheduled for Monday.
 
 ## Usage
-The script expects a directory called "data" containing project files named "<project-name>.txt". Each project file should be organized as follows:
+The script expects a directory called "data" containing project files named "(project-name).txt". Each project file should be organized as follows:
 
 	Name of day (e.g., "Monday")
 		(whitespace) Task 1 for that day
