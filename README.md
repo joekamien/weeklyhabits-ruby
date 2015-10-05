@@ -4,29 +4,30 @@
 There are certain weekly habits I'm trying to build. This is a simple Ruby script that can be run daily to indicate what's on the agenda for that day.
 
 ## Description
-It usually makes sense to keep habits organized by project. For example a file like cleaning.txt, might contian the following:
-> Monday
-> 	dust
-> Tuesday
-> 	clean bathrooms and kitchen sinks
-> **etc.**
+It usually makes sense to keep habits organized by project. For example a file like cleaning.txt, might contain the following:
+
+	Monday
+		dust
+	Tuesday
+		clean bathrooms and kitchen sinks
+	etc.
 
 When viewing habits, however, it usually makes more sense to view them by day. For example, on Monday it would be nice to see all the habits (across all projects) which are scheduled for Monday.
 
 ## Usage
 The script expects a directory called "data" containing project files named "<project-name>.txt". Each project file should be organized as follows:
 
-> Name of day (e.g., "Monday")
-> <whitespace> Task 1 for that day
-> <whitespace> Task 2 for that day
-> **etc.**
-> Name of another day (e.g., "Tuesday")
-> <whitespace> Task 1 for that day
-> <whitespace> Task 2 for that day
-> **etc.**
+	Name of day (e.g., "Monday")
+		(whitespace) Task 1 for that day
+		(whitespace) Task 2 for that day
+		etc.
+	Name of another day (e.g., "Tuesday")
+		(whitespace) Task 1 for that day
+		(whitespace) Task 2 for that day
+		etc.
 
 When run, the script will iterate across all project files in the data directory. For each project with a task for today, it will print to standard output as follows:
-> <project name> - <task name>
+> (project name) - (task name)
 
 ## LICENSE
 (The MIT License)
